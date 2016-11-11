@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlaneWars.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneWarsDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneWarsView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Setlevel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Protect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PlaneWars.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneWarsDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneWarsView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Setlevel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Protection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Protect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PlaneWars.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PlaneWars.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wave1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wave2.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wave4.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PlaneWarsDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\PlaneWars.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\ball.BMP">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\bomb.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\plane.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\enemy.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\explosion.BMP">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\back1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\back2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\game over.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\导弹二.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\导弹三.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\导弹四.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\战机2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\战机三.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\战机四.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\战机五.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\背景三.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\背景二.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\背景四.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\战机最终形态.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\防护罩.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\image\保护膜.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\boss1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\boss2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\ball.BMP">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\bomb.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\plane.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\enemy.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\explosion.BMP">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\back1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\back2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\game over.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\导弹二.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\导弹三.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\导弹四.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\战机2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\战机三.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\战机四.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\战机五.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\背景三.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\背景二.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\背景四.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\战机最终形态.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\保护膜.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\客机二.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\敌机二.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\声音\被击中.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\声音\爆炸.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\声音\击中敌机.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\声音\爆炸2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\声音\蓝球（防护罩）.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
